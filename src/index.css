@@ -1,0 +1,20 @@
+body {
+  @apply font-sans bg-indigo-200;
+}
+.btn-fetch {
+  @apply
+    text-2xl md:text-5xl font-bold px-10 py-3 rounded-lg
+    focus:ring-3 bg-indigo-800 text-indigo-100
+    focus:outline-none shadow-lg hover:bg-indigo-600;
+}
+.fade-enter-active {
+  transition: opacity 200ms ease-in-out;
+}
+.fade-exit-active {
+  transition: opacity 200ms ease-in-out;
+}
+.fade-enter,
+.fade-exit-to {
+  opacity: 0;
+}
+

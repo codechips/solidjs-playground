@@ -1,0 +1,20 @@
+{
+  "name": "solidjs-playground",
+  "version": "1.0.0",
+  "description": "SolidJS sample app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.4.2",
+    "vite-plugin-solid": "^2.0.1",
+    "vite-plugin-windicss": "^1.2.5"
+  },
+  "dependencies": {
+    "date-fns": "^2.22.1",
+    "solid-js": "^1.0.3",
+    "solid-transition-group": "^0.0.8"
+  }
+}
